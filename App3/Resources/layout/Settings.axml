@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <TextView
+        p1:text="@string/NumberInList"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1" />
+    <TextView
+        p1:text="@string/DayNumber"
+        p1:textAppearance="?android:attr/textAppearanceSmall"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView2" />
+    <EditText
+        p1:inputType="number"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/numberText"
+        p1:maxLength="2"
+        p1:phoneNumber="false"
+        p1:password="false"
+        p1:numeric="integer" />
+    <TextView
+        p1:text="@string/MounthInclude"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView3"
+        p1:gravity="center" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout2">
+        <RadioGroup
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/mounthRadioGroup"
+            p1:layout_weight="1">
+            <RadioButton
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:checked="true"
+                p1:text="@string/Februar"
+                p1:id="@+id/februaryRadioButton" />
+            <RadioButton
+                p1:layout_width="wrap_content"
+                p1:layout_height="wrap_content"
+                p1:text="@string/September"
+                p1:id="@+id/septemberRadioButton" />
+        </RadioGroup>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout3"
+            p1:layout_weight="1">
+            <TextView
+                p1:text="@string/YearInclude"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView4" />
+            <EditText
+                p1:inputType="number"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/yearText"
+                p1:maxLength="4"
+                p1:numeric="integer"
+                p1:password="false"
+                p1:phoneNumber="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        p1:text="@string/LastName"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView6"
+        p1:gravity="center" />
+    <EditText
+        p1:inputType="textPersonName"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/lastnameEditText" />
+    <Space
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/space1"
+        p1:layout_weight="1" />
+    <Button
+        p1:text="@string/Save"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/saveButton" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Генератор вариантов</string>
+  <string name="MounthInclude">Месяц и год поступления</string>
+  <string name="YearInclude">Год</string>
+  <string name="NumberInList">Номер в списке</string>
+  <string name="DayNumber">или день из даты рождения</string>
+  <string name="NumberLabWork">Выберите номер ЛР</string>
+  <string name="LastName">Ваша фамилия</string>
+  <string name="Subject">Дисциплина</string>
+  <string name="Variant">Ваш вариант: </string>
+  <string name="Error">Произошла ошибка, сообщите об этом преподавателю</string>
+
+  <string name="Februar">Февраль</string>
+  <string name="September">Сентябрь</string>
+
+  <string name="TLastName">Фамилия: </string>
+  <string name="TNumber">Номер в списке: </string>
+  <string name="TDayOfInclude">Месяц поступления: </string>
+  <string name="TCorrect">Для исправления данных нажмите на тексте выше</string>
+  
+  <string name="Subject1">Информатика и программирование ч.1</string>
+  <string name="Subject2">Информатика и программирование ч.2</string>
+  <string name="Subject3">Объектно-ориентированное программирование</string>
+  <string name="Subject4">Визуальное программирование</string>
+    
+  <string name="LR1">Лабораторная работа 1</string>
+  <string name="LR2">Лабораторная работа 2</string>
+  <string name="LR3">Лабораторная работа 3</string>
+  <string name="LR4">Лабораторная работа 4</string>
+
+  <string name="Generate">Получить вариант</string>
+  <string name="Save">Сохранить</string>
+  <string name="Saved">Изменения сохранены</string>
+
+</resources>
